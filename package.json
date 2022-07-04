@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha index.test.js"
+    "test:VowelCount": "mocha katas/VowelCount/test.js"
   },
   "author": "",
   "license": "ISC",
