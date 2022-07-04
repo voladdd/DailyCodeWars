@@ -1,0 +1,16 @@
+{
+  "name": "dailycodewars",
+  "version": "1.0.0",
+  "description": "solving codewars tasks day by day ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "request": "^2.88.2"
+  }
+}
