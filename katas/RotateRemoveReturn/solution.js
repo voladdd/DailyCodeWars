@@ -1,4 +1,12 @@
-export const rotateAndRemove = (arr) => {};
+export const rotateAndRemove = (arr) => {
+  if (arr.length > 1) {
+    return rotateAndRemove(
+      rotateArray(arr).map((value) => removeMaxAndMin(value))
+    );
+  } else {
+    return arr[0][0];
+  }
+};
 
 export const rotateArray = (arr) => {
   let width = arr.length;
@@ -12,4 +20,18 @@ export const rotateArray = (arr) => {
     result.unshift(collect);
   }
   return result;
+};
+
+export const removeMaxAndMin = (arr) => {
+  let sorted = [...arr].sort((a, b) => a - b);
+  return removeItemFromArray(
+    removeItemFromArray(arr, sorted[0]),
+    sorted[arr.length - 1]
+  );
+};
+
+export const removeItemFromArray = (arr, item) => {
+  return arr
+    .slice(0, arr.indexOf(item))
+    .concat(arr.slice(arr.indexOf(item) + 1, arr.length));
 };
