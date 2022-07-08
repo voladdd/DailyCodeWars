@@ -40,12 +40,15 @@ describe("Helpfull methods Tests", function () {
 });
 
 describe("ConnectingValues", () => {
+  let exampleArr = [
+    [1, 0, 2, 0, 2, 1],
+    [1, 0, 2, 1, 5, 7],
+    [4, 1, 1, 0, 1, 9],
+  ];
   it("Test", () => {
-    let exampleArr = [
-      [1, 0, 2, 0, 2, 1],
-      [1, 0, 2, 1, 5, 7],
-      [4, 1, 1, 0, 1, 9],
-    ];
     assert.strictEqual(connectedValues(exampleArr, 1, [0, 0]), 0);
+  });
+  it("Test", () => {
+    assert.strictEqual(connectedValues(exampleArr, 2, [0, 2]), 0);
   });
 });

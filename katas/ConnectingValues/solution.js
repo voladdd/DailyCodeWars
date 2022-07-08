@@ -99,6 +99,7 @@ export const connectedValues = (arr, val, coord) => {
   const moveThroghConnectedValues = (arr, val, coord) => {
     let coordX = coord[1];
     let coordY = coord[0];
+    history.push([coordY, coordX]);
     let directions = getDirectionsAbleForMove(
       { width: arr[0].length, height: arr.length },
       { x: coordX, y: coordY }
@@ -116,7 +117,6 @@ export const connectedValues = (arr, val, coord) => {
             (oldCoord) => oldCoord.toString() != [newCoordY, newCoordX]
           )
         ) {
-          history.push([coordY, coordX]);
           return moveThroghConnectedValues(arr, val, [newCoordY, newCoordX]);
         }
       });
