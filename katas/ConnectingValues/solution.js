@@ -96,6 +96,7 @@ export const getDirectionsAbleForMove = (arrSize, coord) => {
 
 export const connectedValues = (arr, val, coord) => {
   let history = [];
+  if (arr[coord[0]][coord[1]] !== val) return history;
   const moveThroghConnectedValues = (arr, val, coord) => {
     let coordX = coord[1];
     let coordY = coord[0];
@@ -123,5 +124,5 @@ export const connectedValues = (arr, val, coord) => {
     }
   };
   moveThroghConnectedValues(arr, val, coord);
-  return history;
+  return history.sort();
 };
