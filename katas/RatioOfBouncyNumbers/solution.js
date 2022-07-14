@@ -16,16 +16,11 @@ export const IsBouncy = (number) => {
   return dec && inc;
 };
 
-export const convertFloat = (float, afterZero, accuracy) =>
-  Math.floor(float * (afterZero * accuracy)) / accuracy;
-
-export const maxAccuracyTen = (float) => convertFloat(float, 100, 100);
-
 export const bouncyRatio = (percent) => {
   if (percent == 0) return 1;
   let i = 99;
   let bouncies = 0;
-  while (100 * bouncies < maxAccuracyTen(percent) * i) {
+  while (100 * bouncies < percent * 100 * i) {
     i++;
     if (IsBouncy(i)) bouncies++;
   }
