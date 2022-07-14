@@ -5,4 +5,4 @@
 - [x] [_RotateRemoveReturn_](https://www.codewars.com/kata/57dab71714e53f4bc9000310)
 - [x] [_ConnectingValues_](https://www.codewars.com/kata/5562aa03004710f3ab0001d5)
 - [x] [_ReplaceEveryNth_](https://www.codewars.com/kata/57fcaed83206fb15fd00027a)
-- [] [_RatioOfBouncyNumbers_](https://www.codewars.com/kata/562b099becfe844f3800000a)
+- [x] [_RatioOfBouncyNumbers_](https://www.codewars.com/kata/562b099becfe844f3800000a)
