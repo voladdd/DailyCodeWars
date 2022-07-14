@@ -1,25 +1,19 @@
-/**
- * @param  {number} number
- */
 export const IsBouncy = (number) => {
-  const numbers = number.toString().split("");
-  let status = "asc";
-  let changedTimes = 0;
-  let newStatus;
-  for (let i = 0; i < numbers.length - 1; i++) {
-    let a = numbers[i];
-    let b = numbers[i + 1];
-    if (a !== b) {
-      if (a < b) newStatus = "asc";
-      else if (a > b) newStatus = "desc";
-      if (status !== newStatus) {
-        status = newStatus;
-        changedTimes++;
-        if (changedTimes > 0 && i > 0) return true;
-      }
-    }
+  let inc = false;
+  let dec = false;
+  let last = number % 10;
+  number = Math.floor(number / 10);
+
+  while (number > 0) {
+    let next = number % 10;
+    number = Math.floor(number / 10);
+    if (next < last) inc = true;
+    else if (next > last) dec = true;
+    last = next;
+    if (dec && inc) return true;
   }
-  return false;
+
+  return dec && inc;
 };
 
 export const convertFloat = (float, afterZero, accuracy) =>
@@ -28,15 +22,12 @@ export const convertFloat = (float, afterZero, accuracy) =>
 export const maxAccuracyTen = (float) => convertFloat(float, 100, 100);
 
 export const bouncyRatio = (percent) => {
-  let countBounce = 0;
-  let countUnBounce = 0;
-  let number = 0;
-  do {
-    IsBouncy(number) ? countBounce++ : countUnBounce++;
-    number++;
-  } while (
-    maxAccuracyTen(countBounce / (countBounce + countUnBounce)) <
-    maxAccuracyTen(percent)
-  );
-  return number;
+  if (percent == 0) return 1;
+  let i = 99;
+  let bouncies = 0;
+  while (100 * bouncies < maxAccuracyTen(percent) * i) {
+    i++;
+    if (IsBouncy(i)) bouncies++;
+  }
+  return i;
 };

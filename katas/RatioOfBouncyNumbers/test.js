@@ -1,7 +1,7 @@
 import assert from "assert/strict";
 import { IsBouncy, bouncyRatio } from "./solution.js";
 
-describe.skip("Helpful methods", () => {
+describe("Helpful methods", () => {
   it("Is bouncy 1 false", () => {
     assert.strictEqual(IsBouncy(1), false);
   });
@@ -41,7 +41,7 @@ describe("Example Test Cases", function () {
   it("A 90% bouncy ratio should be reached by 21780", () => {
     assert.strictEqual(bouncyRatio(0.9), 21780);
   });
-  it.skip("A 72.84% bouncy ratio should be reached by 2825", () => {
+  it("A 72.84% bouncy ratio should be reached by 2825", () => {
     assert.strictEqual(bouncyRatio(0.7284), 2825);
   });
 });
