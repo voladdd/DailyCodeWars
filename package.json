@@ -11,7 +11,8 @@
     "test:ConnectingValues": "mocha katas/ConnectingValues/test.js",
     "test:ReplaceEveryNth": "mocha katas/ReplaceEveryNth/test.js",
     "test:RatioOfBouncyNumbers": "mocha katas/RatioOfBouncyNumbers/test.js",
-    "test:NumbersOfLettersOfNumbers": "mocha katas/NumbersOfLettersOfNumbers/test.js"
+    "test:NumbersOfLettersOfNumbers": "mocha katas/NumbersOfLettersOfNumbers/test.js",
+    "test:AreTheyTheSame": "mocha katas/AreTheyTheSame/test.js"
   },
   "author": "",
   "license": "ISC",

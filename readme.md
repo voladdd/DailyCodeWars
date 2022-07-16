@@ -6,4 +6,5 @@
 - [x] [_ConnectingValues_](https://www.codewars.com/kata/5562aa03004710f3ab0001d5)
 - [x] [_ReplaceEveryNth_](https://www.codewars.com/kata/57fcaed83206fb15fd00027a)
 - [x] [_RatioOfBouncyNumbers_](https://www.codewars.com/kata/562b099becfe844f3800000a)
-- [] [_NumbersOfLettersOfNumbers_](https://www.codewars.com/kata/599febdc3f64cd21d8000117)
+- [x] [_NumbersOfLettersOfNumbers_](https://www.codewars.com/kata/599febdc3f64cd21d8000117)
+- [ ] [_AreTheyTheSame_](https://www.codewars.com/kata/550498447451fbbd7600041c)
