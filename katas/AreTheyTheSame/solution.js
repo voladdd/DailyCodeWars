@@ -1,28 +1,15 @@
-export const comp = (array1, array2) => {
-  // select iterately item from array1
-
-  // array1.forEach((value1) => {
-  //   let finded = array2.filter((value2, index) => {
-  //     if (
-  //       array2.findIndex(
-  //         (valueToFind) =>
-  //           valueToFind === value1 || valueToFind === value1 * value1
-  //       ) !== index
-  //     ) {
-  //       return value2;
-  //     }
-  //   });
-  // });
-
-  return array1.every(
-    (value) => array2.includes(value) || array2.includes(value * value)
-  );
-
-  // find in array2 equal item OR square of this item
-  // if item finded remove it from array2
-  //  go to the next iterately item
-  //  if theere is no next items then return true
-  // else return false that these arrays are not equal
+const comp = (array1, array2) => {
+  if (array2 === null || array1 === null) return false;
+  let filteredArray = array2;
+  array1.sort().forEach((value1) => {
+    let firstFindedIndex = filteredArray.findIndex(
+      (valueToFind) => valueToFind === value1 || valueToFind === value1 * value1
+    );
+    filteredArray = filteredArray.filter(
+      (value2, index) => index !== firstFindedIndex
+    );
+  });
+  return filteredArray.length === 0;
 };
 
 export default comp;

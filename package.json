@@ -7,7 +7,6 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "test:VowelCount": "mocha katas/VowelCount/test.js",
     "test:MultiplesOf3Or5": "mocha katas/MultiplesOf3Or5/test.js",
     "test:RotateRemoveReturn": "mocha katas/RotateRemoveReturn/test.js",

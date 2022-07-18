@@ -1,5 +1,5 @@
 import assert from "assert/strict";
-import { comp } from "./solution";
+import comp from "./solution.js";
 
 describe("Tests", () => {
   it("test", () => {
