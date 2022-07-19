@@ -23,5 +23,5 @@
     ],
     "spaced-comment": "warn"
   },
-  "ignorePatterns": ["**/solved-*"]
+  "ignorePatterns": ["**/katas/solved"]
 }
