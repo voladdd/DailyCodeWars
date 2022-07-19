@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test:categorize-new-member": "mocha katas/categorize-new-member/test.js"
+    "test:how-good-are-you-really": "mocha katas/how-good-are-you-really/test.js"
   },
   "author": "",
   "license": "ISC",

@@ -14,7 +14,7 @@
     "sourceType": "module"
   },
   "rules": {
-    "import/extensions": ["ignorePackages"],
+    "import/extensions": [2, "ignorePackages"],
     "prettier/prettier": [
       "error",
       {

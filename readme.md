@@ -9,3 +9,4 @@
 - [x] [_NumbersOfLettersOfNumbers_](https://www.codewars.com/kata/599febdc3f64cd21d8000117)
 - [x] [_AreTheyTheSame_](https://www.codewars.com/kata/550498447451fbbd7600041c)
 - [x] [_categorize-new-member_](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
+- [x] [_how-good-are-you-really_](https://www.codewars.com/kata/5601409514fc93442500010b)
