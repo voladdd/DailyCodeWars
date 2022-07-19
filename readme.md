@@ -7,4 +7,5 @@
 - [x] [_ReplaceEveryNth_](https://www.codewars.com/kata/57fcaed83206fb15fd00027a)
 - [x] [_RatioOfBouncyNumbers_](https://www.codewars.com/kata/562b099becfe844f3800000a)
 - [x] [_NumbersOfLettersOfNumbers_](https://www.codewars.com/kata/599febdc3f64cd21d8000117)
-- [ ] [_AreTheyTheSame_](https://www.codewars.com/kata/550498447451fbbd7600041c)
+- [x] [_AreTheyTheSame_](https://www.codewars.com/kata/550498447451fbbd7600041c)
+- [x] [_categorize-new-member_](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)

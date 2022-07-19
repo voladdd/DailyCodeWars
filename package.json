@@ -7,15 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test:VowelCount": "mocha katas/VowelCount/test.js",
-    "test:MultiplesOf3Or5": "mocha katas/MultiplesOf3Or5/test.js",
-    "test:RotateRemoveReturn": "mocha katas/RotateRemoveReturn/test.js",
-    "test:ConnectingValues": "mocha katas/ConnectingValues/test.js",
-    "test:ReplaceEveryNth": "mocha katas/ReplaceEveryNth/test.js",
-    "test:RatioOfBouncyNumbers": "mocha katas/RatioOfBouncyNumbers/test.js",
-    "test:NumbersOfLettersOfNumbers": "mocha katas/NumbersOfLettersOfNumbers/test.js",
-    "test:AreTheyTheSame": "mocha katas/AreTheyTheSame/test.js",
-    "test:categorize-new-member": "mocha katas/AreTheyTheSame/test.js"
+    "test:categorize-new-member": "mocha katas/categorize-new-member/test.js"
   },
   "author": "",
   "license": "ISC",
