@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test:how-good-are-you-really": "mocha katas/how-good-are-you-really/test.js"
+    "test": "mocha katas/sum-of-numbers/test.js"
   },
   "author": "",
   "license": "ISC",
