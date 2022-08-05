@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test": "mocha katas/sum-of-numbers/test.js"
+    "test": "mocha katas/disemvowel-trolls/test.js"
   },
   "author": "",
   "license": "ISC",
