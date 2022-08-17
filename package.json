@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test": "mocha katas/disemvowel-trolls/test.js"
+    "test": "mocha katas/maximum-subarray-sum/test.js"
   },
   "author": "",
   "license": "ISC",

@@ -11,4 +11,6 @@
 - [x] [_categorize-new-member_](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
 - [x] [_how-good-are-you-really_](https://www.codewars.com/kata/5601409514fc93442500010b)
 - [x] [_sum-of-numbers_](https://www.codewars.com/kata/55f2b110f61eb01779000053)
-- [ ] [_disemvowel-trolls_](https://www.codewars.com/kata/52fba66badcd10859f00097e)
+- [x] [_disemvowel-trolls_](https://www.codewars.com/kata/52fba66badcd10859f00097e)
+- [x] [_convert-string-to-camel-case_](https://www.codewars.com/kata/517abf86da9663f1d2000003)
+- [ ] [_maximum-subarray-sum_](codewars.com/kata/54521e9ec8e60bc4de000d6c)
