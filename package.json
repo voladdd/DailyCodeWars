@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "test": "mocha katas/maximum-subarray-sum/test.js"
+    "test": "mocha katas/two-sum/test.js"
   },
   "author": "",
   "license": "ISC",

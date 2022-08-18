@@ -13,4 +13,5 @@
 - [x] [_sum-of-numbers_](https://www.codewars.com/kata/55f2b110f61eb01779000053)
 - [x] [_disemvowel-trolls_](https://www.codewars.com/kata/52fba66badcd10859f00097e)
 - [x] [_convert-string-to-camel-case_](https://www.codewars.com/kata/517abf86da9663f1d2000003)
-- [ ] [_maximum-subarray-sum_](codewars.com/kata/54521e9ec8e60bc4de000d6c)
+- [x] [_maximum-subarray-sum_](codewars.com/kata/54521e9ec8e60bc4de000d6c)
+- [ ] [_two-sum_](https://www.codewars.com/kata/52c31f8e6605bcc646000082)
