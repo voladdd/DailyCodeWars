@@ -16,3 +16,4 @@
 - [x] [_maximum-subarray-sum_](codewars.com/kata/54521e9ec8e60bc4de000d6c)
 - [x] [_two-sum_](codewars.com/kata/52c31f8e6605bcc646000082)
 - [x] [_your-order-please_](codewars.com/kata/55c45be3b2079eccff00010f)
+- [x] [_calculating-with-functions_](codewars.com/kata/525f3eda17c7cd9f9e000b39)
