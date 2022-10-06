@@ -19,5 +19,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "mocha": "^10.0.0",
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
   }
 }
